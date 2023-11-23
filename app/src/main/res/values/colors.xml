@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- test -->
+    <color name="test">#000050</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="theme_purple">#BB00FF</color>
+
+    <color name="white_20">#33FFFFFF</color>
+    <color name="white_35">#59FFFFFF</color>
+    <color name="white_50">#80FFFFFF</color>
+    <color name="white_65">#A6FFFFFF</color>
+    <color name="white_80">#CCFFFFFF</color>
+    <color name="red_20">#33FF0000</color>
+    <color name="red_35">#59FF0000</color>
+    <color name="red_50">#80FF0000</color>
+    <color name="red_65">#A6FF0000</color>
+    <color name="red_80">#CCFF0000</color>
+    <color name="orange_20">#33FF5722</color>
+    <color name="orange_35">#59FF5722</color>
+    <color name="orange_50">#80FF5722</color>
+    <color name="orange_65">#A6FF5722</color>
+    <color name="orange_80">#CCFF5722</color>
+    <color name="yellow_20">#33FFE500</color>
+    <color name="yellow_35">#59FFE500</color>
+    <color name="yellow_50">#80FFE500</color>
+    <color name="yellow_65">#A6FFE500</color>
+    <color name="yellow_80">#CCFFE500</color>
+    <color name="green_20">#332BE332</color>
+    <color name="green_35">#592BE332</color>
+    <color name="green_50">#802BE332</color>
+    <color name="green_65">#A62BE332</color>
+    <color name="green_80">#CC2BE332</color>
+    <color name="cyan_20">#3300FFFF</color>
+    <color name="cyan_35">#5900FFFF</color>
+    <color name="cyan_50">#8000FFFF</color>
+    <color name="cyan_65">#A600FFFF</color>
+    <color name="cyan_80">#CC00FFFF</color>
+    <color name="blue_20">#330088FF</color>
+    <color name="blue_35">#590088FF</color>
+    <color name="blue_50">#800088FF</color>
+    <color name="blue_65">#A60088FF</color>
+    <color name="blue_80">#CC0088FF</color>
+    <color name="violet_20">#337A33FF</color>
+    <color name="violet_35">#597A33FF</color>
+    <color name="violet_50">#807A33FF</color>
+    <color name="violet_65">#A67A33FF</color>
+    <color name="violet_80">#CC7A33FF</color>
+    <color name="black_20">#33000000</color>
+    <color name="black_35">#59000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="black_65">#A6000000</color>
+    <color name="black_80">#CC000000</color>
+</resources>

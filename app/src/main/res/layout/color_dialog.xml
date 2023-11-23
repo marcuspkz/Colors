@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="#052357"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="#052357"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/choose_column"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/white">
+            </TextView>
+
+            <RadioGroup
+                android:id="@+id/rgColumn"
+                android:layout_width="100dp"
+                android:layout_height="match_parent">
+                <RadioButton
+                    android:id="@+id/h1_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/h1"
+                    android:textColor="@color/white_20"
+                    app:buttonTint="@color/white_20"
+                    android:checked="true">
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/h2_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/h2"
+                    android:textColor="@color/white_50"
+                    app:buttonTint="@color/white_50">
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/h3_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/h3"
+                    android:textColor="@color/white_80"
+                    app:buttonTint="@color/white_80">
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/v1_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/v1"
+                    android:textColor="@color/white_20"
+                    app:buttonTint="@color/white_20">
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/v2_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/v2"
+                    android:textColor="@color/white_35"
+                    app:buttonTint="@color/white_35">
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/v3_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/v3"
+                    android:textColor="@color/white_50"
+                    app:buttonTint="@color/white_50">
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/v4_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/v4"
+                    android:textColor="@color/white_65"
+                    app:buttonTint="@color/white_65">
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/v5_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/v5"
+                    android:textColor="@color/white_80"
+                    app:buttonTint="@color/white_80">
+                </RadioButton>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/choose_color"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/white">
+            </TextView>
+
+            <RadioGroup
+                android:id="@+id/rgColor"
+                android:layout_width="100dp"
+                android:layout_height="match_parent">
+                <RadioButton
+                    android:id="@+id/white_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/color_white"
+                    android:textColor="@color/white"
+                    app:buttonTint="@color/white"
+                    android:checked="true">
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/red_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/color_red"
+                    android:textColor="#FF0000"
+                    app:buttonTint="#FF0000">
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/orange_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/color_orange"
+                    android:textColor="#FF5722"
+                    app:buttonTint="#FF5722">
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/yellow_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/color_yellow"
+                    android:textColor="#FFEB3B"
+                    app:buttonTint="#FFEB3B">
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/green_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/color_green"
+                    android:textColor="#00FF0A"
+                    app:buttonTint="#00FF0A">
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/cyan_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/color_cyan"
+                    android:textColor="#00FFCC"
+                    app:buttonTint="#00FFCC">
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/blue_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/color_blue"
+                    android:textColor="#03A9F4"
+                    app:buttonTint="#03A9F4">
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/violet_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/color_violet"
+                    android:textColor="#A16CFF"
+                    app:buttonTint="#A16CFF">
+                </RadioButton>
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/applyColorButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/apply_color"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/theme_purple">
+        </Button>
+
+        <Button
+            android:id="@+id/closeColorButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/close_color"
+            android:layout_marginLeft="15dp"
+            android:backgroundTint="#FF5858">
+        </Button>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+

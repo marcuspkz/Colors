@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Colores</string>
+    <string name="text_title">PALETA DE COLORES</string>
+    <string name="button_changeColor">CAMBIAR COLOR</string>
+
+    <string name="text_h1">H1 (20%)</string>
+    <string name="text_h2">H2 (50%)</string>
+    <string name="text_h3">H3 (80%)</string>
+    <string name="text_v1">V1 (20%)</string>
+    <string name="text_v2">V2 (35%)</string>
+    <string name="text_v3">V3 (50%)</string>
+    <string name="text_v4">V4 (65%)</string>
+    <string name="text_v5">V5 (80%)</string>
+
+    <string name="choose_column">Elige una barra</string>
+    <string name="choose_color">Elige un color</string>
+
+    <string name="h1">H1 (20%)</string>
+    <string name="h2">H2 (50%)</string>
+    <string name="h3">H3 (80%)</string>
+
+    <string name="v1">V1 (20%)</string>
+    <string name="v2">V2 (35%)</string>
+    <string name="v3">V3 (50%)</string>
+    <string name="v4">V4 (65%)</string>
+    <string name="v5">V5 (80%)</string>
+
+    <string name="color_white">Blanco</string>
+    <string name="color_red">Rojo</string>
+    <string name="color_orange">Naranja</string>
+    <string name="color_yellow">Amarillo</string>
+    <string name="color_green">Verde</string>
+    <string name="color_cyan">Cian</string>
+    <string name="color_blue">Azul</string>
+    <string name="color_violet">Violeta</string>
+
+    <string name="apply_color">Aplicar</string>
+    <string name="close_color">Cerrar</string>
+</resources>
